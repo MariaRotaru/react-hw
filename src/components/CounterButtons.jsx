@@ -1,7 +1,7 @@
 import React from 'react'
 
 function CounterButtons() {
-  const [value, setter] = useState(0);
+  const [value, setValue] = useState(0);
   return (
     <div>
         <p>{value}</p>
